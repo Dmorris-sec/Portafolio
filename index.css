@@ -9,6 +9,7 @@
 }
 
 * {
+	/* border: 1px solid red; */
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
@@ -77,8 +78,11 @@ a.nav-link {
 ──────────────────*/
 
 #home {
-	margin: auto;
-	height: 120vh;
+	margin-top: 8vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	height: auto;
 	color: var(--main-fonts-color);
 	display: flex;
 	flex-direction: column;
@@ -116,7 +120,7 @@ a.nav-link {
 
 .intro h4{
 	margin: 5px;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-family: var(--main-font-family);
 	text-align: center;
 }
